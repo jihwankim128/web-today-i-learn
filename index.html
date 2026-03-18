@@ -4,17 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="initial-scale=1, width=device-width" />
 
-    <!-- TODO: Open Graph 메타 태그를 설정하세요 -->
-    <!-- <meta property="og:title" content="페이지 제목" /> -->
-    <!-- <meta property="og:description" content="페이지 설명" /> -->
-    <!-- <meta property="og:image" content="./images/thumbnail.jpg" /> -->
-
+    <meta property="og:title" content="8기 이프" />
+    <meta property="og:description" content="간단한 소개 사이트" />
+    <meta property="og:image" content="./images/image.png" />
     <title>Today I Learn</title>
     <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="./js/index.js" defer></script>
   </head>
   <body>
-    <!-- 상단 내비게이션 -->
     <nav class="top-nav">
       <span class="nav-logo">My Page</span>
       <ul class="nav-links">
@@ -25,63 +23,87 @@
       </ul>
     </nav>
 
-    <!-- 프로필 히어로 -->
     <section class="hero" id="about">
       <div class="profile-card">
         <div class="profile-image">
-          <!-- TODO: 프로필 이미지를 넣어주세요 -->
-          <!-- <img src="./images/profile.jpg" alt="프로필 사진" /> -->
+          <img src="/images/image.png" alt="프로필 사진"/>
         </div>
         <div class="profile-info">
-          <h1>닉네임</h1>
-          <p class="tagline">한 줄 소개를 작성해주세요.</p>
+          <h1>이프</h1>
+          <p class="tagline">사용자 입장에서 만약을 생각하는 개발자 이프입니다.</p>
         </div>
       </div>
     </section>
 
     <main>
-      <!-- 자기소개 -->
       <section class="content-section">
         <h2>자기소개</h2>
-        <p>자기소개를 작성해주세요.</p>
-        <!-- TODO: 소개 글 안에 블로그, GitHub 등 관련 링크를 <a> 태그로 연결하세요 -->
+        <p class="intro-text">코딩 좀 잘하고 싶은 보잘것없는 녀석입니다.</p>
+
+        <div class="contact-links">
+          <div class="contact-item">
+            <i class="fab fa-github"></i>
+            <a href="https://github.com/jihwankim128" target="_blank">jihwankim128</a>
+          </div>
+
+          <div class="contact-item">
+            <i class="fas fa-blog"></i>
+            <a href="https://velog.io/@jihwankim128" target="_blank">@jihwankim128</a>
+          </div>
+
+          <div class="contact-item">
+            <i class="fas fa-phone"></i>
+            <a href="tel:01075536092">010-7553-6092</a>
+          </div>
+
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <a href="mailto:Jihwangim128@gmail.com">Jihwangim128@gmail.com</a>
+          </div>
+        </div>
       </section>
 
-      <!-- 기본 정보 -->
       <section class="content-section" id="info">
         <h2>기본 정보</h2>
-        <!-- TODO: 자신의 기본 정보를 표(<table>)로 정리하세요 -->
         <table class="info-table">
           <tr>
             <th>이름</th>
-            <td></td>
+            <td>김지환</td>
           </tr>
           <tr>
             <th>MBTI</th>
-            <td></td>
+            <td>INFJ or INTJ - 짜증나게하면 INTJ 됨</td>
           </tr>
           <tr>
             <th>취미</th>
-            <td></td>
+            <td>롤(<a href="https://op.gg/lol/summoners/kr/%EB%88%84%EA%B5%AC%EA%B2%8C-%EC%95%88%EC%95%8C%EB%9E%B4%EC%A4%8C">누구게#안알랴줌</a>), 동전 노래방, 멍 때리기</td>
           </tr>
           <tr>
             <th>좋아하는 음식</th>
-            <td></td>
+            <td>숯불치킨</td>
           </tr>
         </table>
       </section>
 
-      <!-- 나만의 갤러리 -->
       <section class="content-section" id="gallery">
-        <h2>나만의 갤러리</h2>
-        <p class="section-desc">갤러리 부제를 작성해주세요. (예: 기억에 남는 여행지)</p>
+        <h2>우리집 댕댕이</h2>
+        <p class="section-desc">
+          애가 태생적으로 이쁘다. 근데 망가지면 귀엽다.
+          <br>
+          내가 털을 깎였다가 망했다. 지옥에 있다가 온 줄 알았다.
+          <br>
+          못난 주인 둬서 미안🙏
+        </p>
         <div class="gallery-grid">
-          <!-- TODO: 9장의 이미지를 배치하세요 -->
-          <!--
-          <img src="./images/gallery-1.jpg" alt="갤러리 이미지 1" />
-          <img src="./images/gallery-2.jpg" alt="갤러리 이미지 2" />
-          ...
-          -->
+          <img src="./images/dog1.png" alt="갤러리 이미지 1" />
+          <img src="./images/dog2.png" alt="갤러리 이미지 1" />
+          <img src="./images/dog3.png" alt="갤러리 이미지 1" />
+          <img src="./images/dog4.png" alt="갤러리 이미지 1" />
+          <img src="./images/dog6.png" alt="갤러리 이미지 1" />
+          <img src="./images/dog8.png" alt="갤러리 이미지 1" />
+          <img src="./images/dog7.png" alt="갤러리 이미지 1" />
+          <img src="./images/dog5.png" alt="갤러리 이미지 1" />
+          <img src="./images/dog9.png" alt="갤러리 이미지 1" />
         </div>
       </section>
 
@@ -89,15 +111,27 @@
       <section class="content-section" id="works">
         <h2>나를 울린 인생 작품</h2>
         <div class="works-list">
-          <!-- TODO: 최소 2가지 작품을 소개하세요 -->
-          <!-- TODO: 작품 중 하나는 <video> 또는 <iframe>으로 영상을 삽입하세요 -->
           <article class="work-card">
             <div class="work-thumbnail">
-              <!-- 작품 이미지 -->
+              <img src="./images/img_1.png" alt="비스크돌" />
             </div>
             <div class="work-info">
-              <h3>작품 제목</h3>
-              <p>작품에 대한 설명을 작성해주세요.</p>
+              <h3>비스크돌</h3>
+              <p>우테코 최종 코테 끝나고 봤다. 청춘이 아름다워서 눈물 났다</p>
+            </div>
+          </article>
+          <article class="work-card">
+            <div class="work-video">
+              <iframe
+                      src="https://www.youtube.com/embed/FG_dcCOR10E"
+                      title="인터스텔라 명장면"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      allowfullscreen>
+              </iframe>
+            </div>
+            <div class="work-info">
+              <h3>인터스텔라</h3>
+              <p>소름 그 자체, 소름 돋아서 눈물 나온다</p>
             </div>
           </article>
         </div>
@@ -128,15 +162,7 @@
           </div>
         </form>
 
-        <!-- TIL 목록: 폼으로 등록하면 여기에 항목이 추가됩니다 -->
-        <div class="til-list" id="til-list">
-          <!-- 아래는 예시 항목입니다. 자유롭게 수정하거나 삭제하세요 -->
-          <article class="til-item">
-            <time>2026-03-15</time>
-            <h3>HTML 시멘틱 태그</h3>
-            <p>header, nav, main, section, article, footer 등 시멘틱 태그의 역할과 사용법을 배웠다.</p>
-          </article>
-        </div>
+        <div class="til-list" id="til-list"></div>
       </section>
 
     </main>

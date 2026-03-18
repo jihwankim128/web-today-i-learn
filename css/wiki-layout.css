@@ -54,15 +54,19 @@
   width: 160px;
   height: 160px;
   border-radius: 50%;
-  background-color: #ddd;
+  background-color: white;
   flex-shrink: 0;
   overflow: hidden;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .profile-image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+  width: 65%;
+  height: 90%;
+  object-fit: fill;
 }
 
 .profile-info h1 {
@@ -147,9 +151,16 @@ main {
   object-fit: cover;
 }
 
+.work-thumbnail iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
 .work-info h3 {
-  font-size: 1.2rem;
-  margin-bottom: 8px;
+  font-size: 1.4rem;
+  margin-bottom: 12px;
+  color: var(--primary-color);
 }
 
 .work-info p {
@@ -368,4 +379,37 @@ footer {
   --card-bg-color: #fafafa;
   --divider-color: #e8e8e8;
   --font-default-color: #333;
+}
+
+/* 자기소개 - 연락처 */
+.contact-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px 0;
+  margin-top: 20px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  font-size: 0.95rem;
+  color: #333;
+  box-sizing: border-box;
+}
+
+.contact-item i {
+  width: 20px;
+  margin-right: 8px;
+  color: #555;
+}
+
+.contact-item a {
+  color: #000;
+  text-decoration: underline;
+  margin-left: 4px;
+}
+
+.contact-item a:hover {
+  color: var(--primary-color);
 }
